@@ -25,13 +25,14 @@ header {
     height: 69px;
     position: fixed;
     top: 0%;
+    opacity: 1;
+    z-index: 5;
 }
 
 .navigation {
     float: right;
     height: 100%;
     margin: 0 auto;
-    opacity: .8;
 
 }
 
@@ -39,6 +40,7 @@ header {
     height: 100%;
     display: table-cell;
     vertical-align: middle;
+    opacity: .8;
 
 }
 
@@ -82,6 +84,7 @@ header {
 /*Tea Section*/
 .tea-container {
     text-align: center;
+    opacity: .8;
 }
 
 .teas {
@@ -111,3 +114,66 @@ header {
     margin: 0%;
     padding: 0%;
 }
+/*Location section*/
+.location-container {
+    text-align: center;
+}
+
+.location-img {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1gl221t*_ga*MjAyMjQ0NTc4LjE2Mzk4NTk0OTk.*_ga_3LRZM6TM9L*MTY1NzU1MTMwMS4yMzQuMS4xNjU3NTUxMzIyLjM5);
+    height: 500px;
+    width: 1200px;
+    flex-flow: row-reverse wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: inline-flex;
+    margin-top: 50px;
+}
+#locations {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#locations h1 {
+    display: flex;  
+    align-items: center;
+    align-content: center;
+    opacity: .8;
+}
+.address {
+    background-color: black;
+    align-items: center;
+    height: auto;
+    width: 290px;
+    margin: 15px 20px;
+}
+
+.address p {
+    line-height: 2;
+    opacity: .8;
+}
+
+.address h3{
+    opacity: .8;
+}
+
+/*Info*/
+
+.info {
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    height: 200px;
+}
+.info h2, .info h5{
+    opacity: .8;
+}
+
+footer {
+    opacity: .8;
+    padding: 20px;
+}
+
